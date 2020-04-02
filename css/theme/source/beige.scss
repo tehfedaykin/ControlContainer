@@ -13,23 +13,22 @@
 
 
 // Include theme-specific fonts
-@import url(../../lib/font/league-gothic/league-gothic.css);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,700italic,700italic);
 
 
 // Override theme settings (see ../template/settings.scss)
-$mainColor: #333;
-$headingColor: #333;
-$headingTextShadow: 1px 1px 1px #ccc;
-$backgroundColor: #EDC38D;
-$linkColor: #8b743d;
+$mainColor: #fff;
+$headingColor: #fff;
+$headingTextShadow: 1px 1px 1px #333;
+$backgroundColor: rgb(145, 145, 145);
+$linkColor: #88DFFE;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(79, 64, 28, 0.99);
 //$heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 20px 20px rgba(0,0,0,.15);
-$heading1TextShadow: 2px 2px 1px #fff;
+$heading1TextShadow: 2px 2px 1px #000;
 
-$twitterColor: #333;
-$accentColor: #862E05;
+$twitterColor: #88DFFE;
+$accentColor: #88DFFE;
 // Background generator
 // @mixin bodyBackground() {
 // 	@include radial-gradient( rgba(247,242,211,1), rgba(255,255,255,1) );
@@ -37,10 +36,11 @@ $accentColor: #862E05;
 
 @mixin bodyBackground() {
 	background-color: $backgroundColor;
-	background-image: url('../../img/booch-bg.jpg');
+  background-image: url("../../img/sunsetbeach.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom left;
+	background-position: top left;
+	background-blend-mode: multiply;
 }
 
 

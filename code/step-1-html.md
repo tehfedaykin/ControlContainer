@@ -24,6 +24,4 @@
   </div>
   <app-address-fields></app-address-fields>
 </div>
-<button [disabled]="!parentForm.controls.firstName.valid" routerLink="/new-loan/step-2">Next</button>
-
 ```

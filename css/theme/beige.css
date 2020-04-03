@@ -340,6 +340,9 @@ body {
   #me .warning p {
     line-height: 1.5em; }
 
+#me h2 {
+  font-size: 18px; }
+
 .photo-credit {
   position: absolute;
   bottom: 0;

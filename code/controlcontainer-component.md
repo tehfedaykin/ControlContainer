@@ -8,7 +8,7 @@ import { ControlContainer } from '@angular/forms';
   styleUrls: ['./step1.component.less']
 })
 export class Step1Component implements OnInit {
-  constructor(private controlContainer: ControlContainer) {}
+  constructor(public controlContainer: ControlContainer) {}
 
   ngOnInit() {}
 }
